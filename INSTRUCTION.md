@@ -24,7 +24,7 @@ kubectl get pv
 Check the PersistentVolume details:
 
 ```bash
-kubectl describe pv todoapp-pv
+kubectl describe pv pv
 ```
 
 Validate PersistentVolumeClaim
@@ -34,7 +34,7 @@ kubectl get pvc -n todoapp
 ```
 
 ```bash
-kubectl describe pvc todoapp-pvc -n todoapp
+kubectl describe pvc pvc -n todoapp
 ```
 
 

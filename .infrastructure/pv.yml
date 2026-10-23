@@ -11,4 +11,4 @@ spec:
   capacity:
     storage: 1Gi
   hostPath:
-    path: /apps/data
+    path: /app/data
